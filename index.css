@@ -1,0 +1,408 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+}
+/*header section start*/
+.header__section {
+    height: 919px;
+    background: black;
+}
+.header__container {
+    position: relative;
+    margin: 0 auto;
+    width: 1299px;
+}
+.header__title {
+    margin-bottom: 1px;
+    padding-top: 111px;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 171px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.header__description {
+    margin-bottom: 62px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #F5F5F5;
+}
+.header__image {
+    position: absolute;
+    margin-bottom: 20px;
+    display: block;
+    top: 395px;
+    width: 1299px;
+    height: 743px;
+}
+/*header section finish*/
+/*main section start*/
+.about-iphone-13-pro {
+    padding-top: 280px;
+    width: 100%;
+    position: relative;
+}
+.about-iphone-13-pro__container {
+    position: relative;
+    margin: 0 auto;
+    width: 1299px;
+    height: 734px;
+}
+.about-iphone-13-pro__title {
+    margin: 0 auto;
+    margin-bottom: 65px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #262525;
+}
+.about-iphone-13-pro__description {
+    margin-left: 190px;
+    width: 967px;
+    height: 210px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 157.4%;
+    text-align: center;
+    color: #262525;
+}
+.about-iphone-13-pro__choose-iphone {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 31px;
+    align-items: center;
+    text-align: center;
+    color: #262525;
+}
+.about-iphone-13-pro__choose-iphone::after {
+    content: '';
+    position: absolute;
+    margin-bottom: 104px;
+    top: 390px;
+    left: 637px;
+    width: 30px;
+    height: 30px;
+    background-image: url(./img/arrow-down.png);
+}
+
+
+.black-iphone-img {
+    position: absolute;
+    padding-bottom: 96px;
+    top: 584px;
+}
+.beauti-and-strenght__container {
+    margin: 0 auto;
+    margin-bottom: 78px;
+    width: 100%;
+    height: 570px;
+    background: black;
+}
+.beauti-and-strenght__content {
+    margin: 0 auto;
+    width: 1299px;
+    height: 348px;
+}
+.beauti-and-strenght__title {
+    position: absolute;
+    margin-left: 225px;
+    bottom: 455px;
+    width: 811px;
+    height: 166px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;    
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.beauti-and-strenght__small-title {
+    position: absolute;
+    margin-left: 185px;
+    bottom: 330px;
+    width: 874px;
+    height: 85px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 57px;
+    text-align: center;
+    color: #F5F5F5;
+}
+.beauti-and-strenght__description{
+    position: absolute;
+    margin-left: 155px;
+    bottom: 250px;
+    width: 941px;
+    height: 88px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 125%;
+    text-align: center;
+    color: #7A7A7A;
+}
+
+
+.choose-iphone {
+    position: relative;
+    width: 100%;
+    height: 1020px;
+}
+.choose-iphone__container {
+    position: relative;
+    margin: 0 auto;
+    width: 1264px;
+    height: 704px;
+}
+.choose-iphone__title {
+    margin-bottom: 57px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    color: #292929;
+    text-align: center;
+}
+.choose-iphone__items {
+    display: inline-block;
+    margin-left: 24px;
+}
+.content__wrapper {
+    width: 384px;
+    height: 237px;
+    padding: 24px;
+    background: #1B1B1B;
+    border-radius: 0px 0px 32px 32px;
+}
+.choose-iphone__titel {
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.choose-iphone__color-description {
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.choose-iphone-price {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #F1F8FF;
+}
+.btn {
+    width: 336px;
+    height: 66px;
+    font-weight: 600;
+    border-radius: 30px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+    color: #000000;
+    background: #FFFFFF;
+}
+.choose-iphone::before {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 310px;
+    left: 240px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(./img/Arrow\ -\ left.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.choose-iphone::after {
+    display: block;
+    content: '';
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 310px;
+    right: 240px;
+    border-radius: 100px;
+    background: #FFFFFF;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.15);
+    background-image: url(./img/Arrow\ -\ right.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+.choose-iphone__container::after {
+    display: block;
+    content: '';
+    position: absolute;
+    left: 590px;
+    top: 715px;
+    width: 64px;
+    height: 16px;
+    background-image: url(./img/dots.png);
+    background-repeat: no-repeat;
+    background-position: 50%;
+}
+
+
+.atmosphere {
+    width: 100%;
+    height: 836px;
+    background: #1B1B1B;
+}
+.atmosphere__container {
+    margin: 0 auto;
+    width: 1507px;
+    height: 769px;
+}
+.atmosphere__title {
+    margin-bottom: 28px;
+    padding-top: 71px;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 38px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.atmosphere__description {
+    margin: 0 auto;
+    margin-bottom: 55px;
+    width: 607px;
+    height: 75px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #F5F5F5;
+}
+.atmosphere__image {
+    margin-left: 250px;
+    width: 993px;
+    height: 431px;
+}
+.atmposphere__bottom-wave {
+    margin: 0 auto;
+    padding-top: 15px;
+    width: 100%;
+}
+
+
+.delivery {
+    margin-bottom: 80px;
+    height: 506px;
+}
+.delivery__container {
+    position: relative;
+    margin: 0 auto;
+    padding: 80px 120px;
+    width: 1440px;
+}
+.delivery__image {
+    padding-top: 96px;
+}
+.delivery__title {
+    position: absolute;
+    right: 140px ;
+    bottom: 250px;
+    width: 419px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #727272;
+}
+.delivery__input-wrapper {
+    position: absolute;
+    bottom: 150px;
+    right: 140px;
+    width: 419px;
+    height: 65px;
+    border: 1.5px solid #C8C8C8;
+    border-radius: 32px;
+}
+.delivery__input {
+    position: relative;
+    padding: 24px 227px 24px 24px;
+}
+.delivery__input-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #545454;
+}
+.delivery__btn {
+    position: absolute;
+    bottom: 11px;
+    left: 260px;
+    width: 151px;
+    height: 49px;
+    cursor: pointer;
+    font-family: 'Raleway', sans-serif;
+    background: #262525;
+    border: none;
+    border-radius: 32px;
+    color: white;   
+}
+.delivery__btn:hover {
+    opacity: 0.5;
+}
+/*main section finish*/
+
+/*footer section start*/
+.footer {
+    height: 343px;
+    background: #1D1C1C;
+}
+.footer__lists-items-apple {
+    margin-left: 105px;
+    padding-top: 84px;
+    width: 320px;
+    height: 164px;
+}
+.footer__title-apple {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.footer__description-apple {
+    margin-bottom: 32px;
+    padding-top: 14px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+.footer__social-link {
+    margin-right: 8px;
+    text-decoration: none;
+}
+
+/*footer section finish*/
