@@ -374,8 +374,14 @@ body {
 
 /*footer section start*/
 .footer {
+    position: relative;
     height: 343px;
     background: #1D1C1C;
+}
+.footer__container {
+    position: relative;
+    margin: 0 auto;
+    width: 1512px;
 }
 .footer__lists-items-apple {
     margin-left: 105px;
@@ -404,5 +410,83 @@ body {
     margin-right: 8px;
     text-decoration: none;
 }
-
+.footer__content-wrapper {
+    display: flex;
+    position: absolute;
+    margin-left: 24px;
+    top: 68px;
+    right: 0;
+    width: 558px;
+    height: 207px;
+}
+.footer__company-support {
+    margin-left: 24px;
+    list-style-type: none;
+}
+.footer__titel-company {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EFEEEF;
+}
+.footer__items-company {
+    margin-bottom: 12px;
+}
+.footer__items-company :hover {
+    color: white;
+}
+.footer__description-company {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+.footer__stay-up {
+    margin-left: 24px;
+    width: 210px;
+    height: 107px;
+}
+.footer__title-stay-up {
+    margin-bottom: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #EFEEEF;
+}
+.footer__stay-up-email-form {
+    list-style-type: none;
+}
+.footer__form-container {
+    width: 220px;
+    height: 53px;
+    left: 0px;
+    top: 54px;
+    background: #545454;
+    border-radius: 32px;
+}
+.footer__form {
+    padding: 16px 24px;
+}
+.footer__input {
+    width: 140px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    letter-spacing: 0.02em;
+    color: #C8C8C8;
+}
+.footer__form-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.footer__form-btn :hover {
+    color: white;
+}
 /*footer section finish*/
